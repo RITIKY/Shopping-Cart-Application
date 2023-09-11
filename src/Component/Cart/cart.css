@@ -1,5 +1,5 @@
 .wrappers{
-  height: 700px;
+  height: 800px;
   background: #d53369;
   background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
   background: linear-gradient(to right, #cbad6d, #d53369);
@@ -25,7 +25,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 170px;
   margin-top: -70px;
 }
 .empty-image img{
