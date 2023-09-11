@@ -1,0 +1,123 @@
+.wrappers{
+  height: 700px;
+  background: #d53369;
+  background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
+  background: linear-gradient(to right, #cbad6d, #d53369);
+}
+.cart-container{
+  align-items: center;
+  text-align: center;
+  
+  padding: 40px;
+  /* height: 100%; */
+  /* width: 100%; */
+}
+.cart-container h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+.cart-empty p{
+  font-size: 20px;
+}
+.empty-image{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 170px;
+  margin-top: -70px;
+}
+.empty-image img{
+  height: 300px;
+  width: 300px;
+  /* background: #d53369; */
+}
+.Title{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  margin: 50px;
+  border: 3px solid black;
+  background-color: white;
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+
+}
+.cart-item{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  border-top: 3px solid black;
+  margin-right: 40%;
+}
+.product-image {
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+img {
+  width: 90px;
+  height: 80px;
+  max-width: 70%;
+  border-radius: 5px;
+}
+.remove{
+  margin-top: 40px;
+  margin-left: 15%;
+}
+.remove svg{
+  font-size: 30px;
+}
+.price{
+  margin-top: 30px;
+  margin-left: 18%;
+}
+.subtotal{
+  margin-top: 40px;
+  margin-left: 16%;
+}
+.data{
+  display: flex;
+  padding: 20px;
+  padding-left: 200px;
+}
+
+
+.quantity {
+  margin-top: 40px;
+  margin-left: 18%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 30px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.quantity svg{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.count{
+  margin-top: 1px;
+  font-size: 15px;
+}
+.quantity h6{
+  padding-top: 8px;
+}
+.cart-summary{
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-right: 80%;
+}
+.clear-btn{
+  border: 2px solid black;
+}

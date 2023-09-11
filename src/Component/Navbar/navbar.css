@@ -1,0 +1,38 @@
+.navbar-lists{
+    margin-bottom: 2px  ;
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+}
+.navbar-link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.3s linear;
+    margin-right: 20px;
+}
+.cart-trolley--link{
+    position: relative;
+}
+
+.cart-trolley{
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.cart-total--item{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    background-color: #000;
+    color: #000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: -20%;
+    left: 70%;
+    background-color: rgb(245, 245, 249);
+}

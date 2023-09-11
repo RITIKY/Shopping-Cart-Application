@@ -1,0 +1,35 @@
+.header{
+    height: 4rem;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header_left{
+    display: flex;
+    float: left;
+    margin-top: 6px;
+}
+.header_left_link{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.header img {
+    margin-left: 40px;
+    width: 12rem;
+    height: 3rem;
+    justify-content: start;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
