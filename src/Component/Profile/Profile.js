@@ -8,7 +8,7 @@ const Profile = () => {
 
   return (
     <div className="box">
-      <h4>Name : {name} Yadav </h4>
+      <h4>Name : Ritik Yadav </h4>
       <h4>UserName : ritikyadav0178@gmail.com</h4>
       <h4>Phone : 8972179937</h4>
     </div>
